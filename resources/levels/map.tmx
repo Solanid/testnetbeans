@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="40" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="pp" tilewidth="16" tileheight="16">
+  <image source="tilesets/tileset01.png" width="320" height="400"/>
+ </tileset>
+ <tileset firstgid="501" name="tileset02" tilewidth="16" tileheight="16">
+  <image source="tilesets/tileset02.png" width="320" height="400"/>
+ </tileset>
+ <tileset firstgid="1001" name="tileset03" tilewidth="16" tileheight="16">
+  <image source="tilesets/tileset03.png" width="320" height="336"/>
+ </tileset>
+ <layer name="background" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+1Xu04DMRA0do0oaAIUINHyiBIkGiSgyZWAgC4cBVATRAHU8BP3B/AZ+S4axoqtrILvbgl7pxWiGO3ZmeyN9xVnaIxZFMYVk2OsMQu2nLME7APrzpgNoAdu305tB3srwCqwBhRh/wTPp8CZS6+9z5797o9aLsejD797wCFwBBwDGT7fgt0GdoDdoM/v3+D5Frhz6bX3ObATZCWWy4nn8JrP4f8CuHTTM9zjeRTWMX5PWD8DLy695saGq6+K84p3voW4FBU8arnv5ua3ikNtweS1GT9q/0r8vD1IzIN5+jcHxnaCuD8uwbLjxW8Q9En37zt8ftScO1o6i+apv66Vzy+1dBal9NXFpmvl+4NrNcSvbr5IxS8nv8fxPL+9H3wK+PC4bjB+UnXSVP1J6vvp/KizmWAeyvRVzY829W0qz2/O7KUsfIfDfRDoXdq/EmeVjP9sf0jUiuR8mu0P7fq051e7Pu351a5Pe36169Oe3zou5y5Dnym/jfqjdxlOfim/zfqjcdFYf1V3wv/5p2++xBxrjZ92fdrz67WNhP4rNIFH4AvIsKJaABkAAA==
+  </data>
+ </layer>
+ <layer name="walls" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2XwQqAIBBEFf//A8Nr0CE/IqQkiwVXZkGFeTAHYxlexR5M3rmkTAz6Wcts4c6f8rwkPjMxvJHOubPFKcwc/ptV/LRE4R0k6DfGT+qh3/u/anr86v1rZYSfNVad9MN7VvDr2Q9NcudukFW+nzX0w3utelbwmz2zQj8M+mHQD4N+GPTDoB8G/TDoh0E/jNH3Ck0uhDh2VAAZAAA=
+  </data>
+ </layer>
+ <objectgroup name="objects" width="40" height="40">
+  <object name="reactor" type="reactor" x="543" y="17" width="80" height="80"/>
+  <object name="turret" type="turret" x="391" y="104" width="48" height="48"/>
+  <object name="wall" type="wall" x="336" y="113" width="16" height="32"/>
+  <object name="alien2" type="mother" x="414" y="417" width="112" height="162"/>
+  <object name="alien" type="alien" x="358" y="166" width="32" height="32"/>
+  <object name="alien" type="stupid" x="71" y="37" width="32" height="32"/>
+  <object name="alien" type="stupid" x="71" y="37" width="32" height="32"/>
+  <object name="door" type="hdoor" x="48" y="128" width="32" height="16"/>
+  <object name="card" type="card" x="145" y="97" width="16" height="16"/>
+  <object name="door1" type="hdoorlocked" x="50" y="210" width="32" height="16"/>
+  <object name="alien1" type="waiting" x="294" y="253" width="32" height="32"/>
+  <object name="alien1" type="waiting" x="245" y="253" width="32" height="32"/>
+  <object name="hole" type="hole" x="475" y="256" width="32" height="32"/>
+  <object name="door1" type="vdoor" x="336" y="256" width="16" height="32"/>
+  <object name="energy" type="energy" x="527" y="243" width="16" height="16"/>
+  <object name="card" type="card" x="590" y="255" width="16" height="16"/>
+  <object name="ammo" type="ammo" x="548" y="275" width="16" height="16"/>
+  <object name="gunup" type="gunup" x="583" y="281" width="16" height="16"/>
+  <object name="door2" type="hdoorlocked" x="162" y="305" width="32" height="16"/>
+  <object name="finish" type="finish" x="626" y="561" width="16" height="32"/>
+  <object name="ripley" type="ripley" x="502" y="49" width="32" height="32"/>
+  <object name="switch" type="switch" x="495" y="122" width="16" height="16"/>
+  <object name="alien2" type="waiting" x="359" y="573" width="32" height="32"/>
+  <object name="alien2" type="waiting" x="572" y="387" width="32" height="32"/>
+ </objectgroup>
+</map>
